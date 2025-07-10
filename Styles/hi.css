@@ -56,6 +56,25 @@ nav h3{
 }
 .bu{
     margin-top: 37px;
-    margin-bottom: 250px;
+    margin-bottom: 159px;
    
+}
+/* 2nd part */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 141px;
+    gap: 220px;
+}
+.act-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.act-des{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin-right: 100px;
+}
+.act-pic{
+    border-radius: 48px;
 }
