@@ -10,6 +10,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.secondary-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+}
 .header{
     background-image: url(../Assets/Hero-bg.png);
      background-repeat: no-repeat;
@@ -78,3 +81,39 @@ nav h3{
 .act-pic{
     border-radius: 48px;
 }
+/* 3rd part */
+.join{
+    text-align: center;
+    margin: 116px;
+    margin-top: 195px;
+    border-radius: 24px;
+    background-color:rgba(78, 71, 255, 0.1) ;
+    padding: 50px;
+
+}
+.join-title{
+    font-size: 38px;
+    
+}
+.join-items{
+    display: flex;
+    justify-content: space-around;
+}
+.join-item p{
+   margin:0px;
+   padding: 0px;
+}
+.join-rate{
+    color: rgba(78, 71, 255, 1);
+    font-size: 80px;
+    font-weight: bold;
+}
+.join-what{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.joini{
+    display: flex;
+    justify-content: space-around;
+}
+
