@@ -213,8 +213,9 @@ h2 {
    margin-bottom: 20px;
 
 }
-.focus-subtitle{
-    font-size: 20px;
+
+.focus .focus-subtitle {
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
     margin-bottom: 20px;
@@ -229,4 +230,56 @@ h2 {
     font-weight: 200;
     margin-bottom: 20px;
 
+}
+/* 6th part */
+.touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    max-width: 1140px;
+}
+.to{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 0px 30px;
+    padding-top: 100px;
+
+}
+.touch-font{
+    font-size:18px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.touch input[type="text"], .touch input[type="email"]{
+    border-color: rgba(214, 221, 237, 0.262);
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+}
+.touch textarea{
+    border-color: rgba(214, 221, 237, 1);
+    height: 110px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.touch-b{
+
+    width: 500px;
+    height: 75px;
+    font-size:16px;
+}
+.touch-g{
+    gap: 60px;
+    text-align:left;
 }
