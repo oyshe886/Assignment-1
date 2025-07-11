@@ -337,4 +337,8 @@ h2 {
     background-color: skyblue;
     color: black;
     cursor: pointer;
+    box-shadow: 4px 4px 4px;
+}
+.footer-div a{
+    text-decoration: none;
 }
