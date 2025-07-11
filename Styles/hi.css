@@ -333,3 +333,8 @@ h2 {
     font-size: 19px;
     font-weight:300px;
 }
+.button:hover{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+}
