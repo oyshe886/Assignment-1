@@ -141,7 +141,7 @@ h2 {
     /* padding: 60px 0px; */
     align-items: center;
      /* margin: 116px; */
-     margin: 137px auto 30px 25px;
+     margin: 137px auto 0 25px;
 }
 .user-container {
     display: flex;
@@ -195,4 +195,38 @@ h2 {
 }
 .date{
     color: rgba(179, 179, 179, 1);
+}
+/* 5th part */
+.focus{
+    justify-items: center;
+    margin: 151px;
+    padding: 40px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin-top: 137px;
+
+}
+.focus-title{
+     font-size: 50px;
+    font-weight: bold;
+   margin-bottom: 20px;
+
+}
+.focus-subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+.focus-pic{
+      border-radius: 48px;
+
+}
+.nb{
+     font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+
 }
