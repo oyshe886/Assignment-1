@@ -13,6 +13,13 @@
 .secondary-bg{
     background-color: rgba(78, 71, 255, 0.1);
 }
+.header-item{
+    font-weight: 800;
+    margin-top: 60px;
+}
+.sign{
+    margin-top: 60px;
+}
 .header{
     background-image: url(../Assets/Hero-bg.png);
      background-repeat: no-repeat;
@@ -20,14 +27,14 @@
     background-size: cover; 
     height: 100vh;
     width: 100%; 
-
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 0150px ;
+    margin: 0px 150px ;
+    /* margin-top: 60px ; */
 }
 .button{
     background-color : #4E47FF;
@@ -35,7 +42,7 @@ nav{
     font-weight: bold;
     color: white;
     padding: 12px 36px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     display: inline-block;
     white-space: nowrap;
@@ -56,6 +63,7 @@ nav h3{
 .cool-title{
     font-size: 65px;
     margin: 100px 267px 0px ;
+    margin-top: 180px;
 }
 .bu{
     margin-top: 37px;
@@ -68,18 +76,26 @@ nav h3{
     justify-content: space-between;
     margin: 141px;
     gap: 220px;
+    /* max-width: 1140px; */
+    /* margin-right: 60px; */
+    padding: 0 45px;
 }
 .act-title{
     font-size: 42px;
     font-weight: bold;
+    margin-bottom: 23px;
 }
 .act-des{
     color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
     margin-right: 100px;
+    margin-bottom: 23px;
 }
 .act-pic{
     border-radius: 48px;
+}
+.act-class{
+    margin-top: 70px;
 }
 /* 3rd part */
 .join{
@@ -141,7 +157,8 @@ h2 {
     /* padding: 60px 0px; */
     align-items: center;
      /* margin: 116px; */
-     margin: 137px auto 0 25px;
+     margin: 137px auto 0 auto;
+     
 }
 .user-container {
     display: flex;
@@ -282,4 +299,37 @@ h2 {
 .touch-g{
     gap: 60px;
     text-align:left;
+}
+/* Footer part */
+.footer{
+    text-align: center;
+    background-color: white;
+    padding: 120px;
+}
+.footer-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 8px;
+}
+.f-des{
+    color: #8987A1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300px;
+
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.footer-last{
+    color: rgba(137, 135, 161, 1);
+    font-size: 19px;
+    font-weight:300px;
 }
